@@ -1,0 +1,30 @@
+{
+  "name": "package-a",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "David Johnston <david@blacksheepcode.com>",
+  "homepage": "https://github.com/dwjohnston/lerna-symlinks-example#readme",
+  "license": "ISC",
+  "main": "lib/package-a.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwjohnston/lerna-symlinks-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "tsc --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/dwjohnston/lerna-symlinks-example/issues"
+  },
+  "dependencies": {
+    "package-b": "^0.0.0"
+  }
+}
