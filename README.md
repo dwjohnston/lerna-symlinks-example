@@ -4,6 +4,8 @@ System info:
 
 I'm using VSCode 1.34.
 
+0. Run `lerna bootstrap`. 
+
 1. Open two terminals, one to `packages/package-a` one to `packages/package-b`. 
 
 2. Run `npm start` in each of these. 
